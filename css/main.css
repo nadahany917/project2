@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 0;
+    color: white;
+    line-height: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+
+
+}
+.one,
+.two,
+.three{
+    width:200px;
+    height: 350px;
+    padding: 20px;
+}
+.one{
+    background-color: hsl(31, 77%, 52%);
+}
+.two{
+    background-color: hsl(184, 100%, 22%);
+}
+.three{
+    background-color:hsl(179, 100%, 13%);
+}
+p{
+    font-size: 12px;
+}
+.row  a{
+    display: inline-block;
+    background-color: #eee;
+    margin-top: 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 8px 20px;
+    transition: 0.3s all ease-in-out;
+}
+.one a:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 1px solid white;
+
+}
+.two a:hover{
+    background-color: hsl(184, 100%, 22%);;
+    color: white;
+    border: 1px solid white;
+}
+.three a:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 1px solid white;
+
+}
+    
+
+
+.one a{
+    color:hsl(31, 77%, 52%); 
+}
+.two a{
+    color:hsl(184, 100%, 22%) ;
+}
+.three a{
+    color:hsl(179, 100%, 13%) ;
+}
